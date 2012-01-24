@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7FE2786314CF30D100339EAE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE2786214CF30D100339EAE /* UIKit.framework */; };
+		7FE2786514CF30D100339EAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE2786414CF30D100339EAE /* Foundation.framework */; };
+		7FE2786714CF30D100339EAE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE2786614CF30D100339EAE /* CoreGraphics.framework */; };
+		7FE2786D14CF30D100339EAE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7FE2786B14CF30D100339EAE /* InfoPlist.strings */; };
+		7FE2786F14CF30D100339EAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE2786E14CF30D100339EAE /* main.m */; };
+		7FE2787314CF30D100339EAE /* TurismoSTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE2787214CF30D100339EAE /* TurismoSTAppDelegate.m */; };
+		7FE2787614CF30D100339EAE /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FE2787414CF30D100339EAE /* MainStoryboard.storyboard */; };
+		7FE2787914CF30D100339EAE /* TurismoSTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE2787814CF30D100339EAE /* TurismoSTViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7FE2785E14CF30D100339EAE /* TurismoST.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TurismoST.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FE2786214CF30D100339EAE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7FE2786414CF30D100339EAE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7FE2786614CF30D100339EAE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7FE2786A14CF30D100339EAE /* TurismoST-Info.plist */ = {isa = PBXFileReference; path = "TurismoST-Info.plist"; sourceTree = "<group>"; };
+		7FE2786C14CF30D100339EAE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7FE2786E14CF30D100339EAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7FE2787014CF30D100339EAE /* TurismoST-Prefix.pch */ = {isa = PBXFileReference; path = "TurismoST-Prefix.pch"; sourceTree = "<group>"; };
+		7FE2787114CF30D100339EAE /* TurismoSTAppDelegate.h */ = {isa = PBXFileReference; path = TurismoSTAppDelegate.h; sourceTree = "<group>"; };
+		7FE2787214CF30D100339EAE /* TurismoSTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TurismoSTAppDelegate.m; sourceTree = "<group>"; };
+		7FE2787514CF30D100339EAE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		7FE2787714CF30D100339EAE /* TurismoSTViewController.h */ = {isa = PBXFileReference; path = TurismoSTViewController.h; sourceTree = "<group>"; };
+		7FE2787814CF30D100339EAE /* TurismoSTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TurismoSTViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FE2785B14CF30D100339EAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FE2786314CF30D100339EAE /* UIKit.framework in Frameworks */,
+				7FE2786514CF30D100339EAE /* Foundation.framework in Frameworks */,
+				7FE2786714CF30D100339EAE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FE2785314CF30D100339EAE = {
+			isa = PBXGroup;
+			children = (
+				7FE2786814CF30D100339EAE /* TurismoST */,
+				7FE2786114CF30D100339EAE /* Frameworks */,
+				7FE2785F14CF30D100339EAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7FE2785F14CF30D100339EAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FE2785E14CF30D100339EAE /* TurismoST.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FE2786114CF30D100339EAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FE2786214CF30D100339EAE /* UIKit.framework */,
+				7FE2786414CF30D100339EAE /* Foundation.framework */,
+				7FE2786614CF30D100339EAE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7FE2786814CF30D100339EAE /* TurismoST */ = {
+			isa = PBXGroup;
+			children = (
+				7FE2787114CF30D100339EAE /* TurismoSTAppDelegate.h */,
+				7FE2787214CF30D100339EAE /* TurismoSTAppDelegate.m */,
+				7FE2787414CF30D100339EAE /* MainStoryboard.storyboard */,
+				7FE2787714CF30D100339EAE /* TurismoSTViewController.h */,
+				7FE2787814CF30D100339EAE /* TurismoSTViewController.m */,
+				7FE2786914CF30D100339EAE /* Supporting Files */,
+			);
+			path = TurismoST;
+			sourceTree = "<group>";
+		};
+		7FE2786914CF30D100339EAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FE2786A14CF30D100339EAE /* TurismoST-Info.plist */,
+				7FE2786B14CF30D100339EAE /* InfoPlist.strings */,
+				7FE2786E14CF30D100339EAE /* main.m */,
+				7FE2787014CF30D100339EAE /* TurismoST-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FE2785D14CF30D100339EAE /* TurismoST */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FE2787C14CF30D100339EAE /* Build configuration list for PBXNativeTarget "TurismoST" */;
+			buildPhases = (
+				7FE2785A14CF30D100339EAE /* Sources */,
+				7FE2785B14CF30D100339EAE /* Frameworks */,
+				7FE2785C14CF30D100339EAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TurismoST;
+			productName = TurismoST;
+			productReference = 7FE2785E14CF30D100339EAE /* TurismoST.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FE2785514CF30D100339EAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = ASTA;
+			};
+			buildConfigurationList = 7FE2785814CF30D100339EAE /* Build configuration list for PBXProject "TurismoST" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7FE2785314CF30D100339EAE;
+			productRefGroup = 7FE2785F14CF30D100339EAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FE2785D14CF30D100339EAE /* TurismoST */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FE2785C14CF30D100339EAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FE2786D14CF30D100339EAE /* InfoPlist.strings in Resources */,
+				7FE2787614CF30D100339EAE /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FE2785A14CF30D100339EAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FE2786F14CF30D100339EAE /* main.m in Sources */,
+				7FE2787314CF30D100339EAE /* TurismoSTAppDelegate.m in Sources */,
+				7FE2787914CF30D100339EAE /* TurismoSTViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7FE2786B14CF30D100339EAE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FE2786C14CF30D100339EAE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7FE2787414CF30D100339EAE /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FE2787514CF30D100339EAE /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7FE2787A14CF30D100339EAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		7FE2787B14CF30D100339EAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FE2787D14CF30D100339EAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TurismoST/TurismoST-Prefix.pch";
+				INFOPLIST_FILE = "TurismoST/TurismoST-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7FE2787E14CF30D100339EAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TurismoST/TurismoST-Prefix.pch";
+				INFOPLIST_FILE = "TurismoST/TurismoST-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FE2785814CF30D100339EAE /* Build configuration list for PBXProject "TurismoST" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FE2787A14CF30D100339EAE /* Debug */,
+				7FE2787B14CF30D100339EAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FE2787C14CF30D100339EAE /* Build configuration list for PBXNativeTarget "TurismoST" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FE2787D14CF30D100339EAE /* Debug */,
+				7FE2787E14CF30D100339EAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FE2785514CF30D100339EAE /* Project object */;
+}
